@@ -27,7 +27,7 @@ body {
   text-align: center;
   padding: 7%;
   background-color: #d6e6f2;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 #about h2 {
@@ -107,7 +107,15 @@ h4 {
 #footer a{font-weight: bold;color: #838383;}
 #footer a:hover{text-decoration: none;}
 /* .buildings{display:inline;} */
+@media only screen and (max-width:983px)
+{
+  body{font-size:2rem;}
+   h2{font-size: 2em;}
+   h4{font-size: 1.5em;}
+  #footer{height:230px;font-size: 1rem;}
+  #about{margin-bottom: 10%;font-size:2rem;}
 
+}
 
 
 /* @media only screen
