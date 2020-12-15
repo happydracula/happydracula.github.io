@@ -66,7 +66,7 @@ body {
 }
 #projects {
   background-color: #fafafa;
-  padding-top: 14%;
+ padding-top: 14%;
   padding-bottom: 14%;
   padding-left: 7%;
   padding-right: 7%;
@@ -106,13 +106,21 @@ h4 {
 #footer i:hover{opacity: 0.5;}
 #footer a{font-weight: bold;color: #838383;}
 #footer a:hover{text-decoration: none;}
-@media only screen and (max-width:980px)
-{
+/* .buildings{display:inline;} */
+
+
+
+/* @media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
   #about{font-size: 100%;}
 
   #projects h2{position: static;margin-bottom: 50px;}
   #projects{padding:top:3%;font-size: 85%;}
 }
-/* .pr-1{float: left;} */
+/* .pr-1{float: left;} */ */
 /* img{display: inline-block;} */
 /* .img-cont-1{margin-bottom: 500px;} */
