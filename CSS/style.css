@@ -5,14 +5,19 @@
 #navigation {
   background-color: white;
 }
-
-nav {
-  background-color: white;
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
-.navbar-toggler{border-color:#98acf8;box-sizing: border-box;}
+nav {
+  background-color: white;position: relative;
+}
+.navbar-toggler{box-sizing: border-box;position: relative;top:0.5px;}
 .navbar-toggler:active{text-decoration: none;}
 .navbar-toggler-icon{padding:0;position: relative;}
-.fa-bars{color:#98acf8;position:relative;top:20%;}
+.fa-bars{color:#98acf8;position:relative;top:1%;}
 body {
   position: static;
 }
@@ -121,6 +126,7 @@ h4 {
   #footer{height:230px;font-size: 2rem;}
   #about{font-size:3rem;}
   #projects h2{margin-top:10%;}
+  nav li{font-size: 1.5rem;}
 
 }
 
